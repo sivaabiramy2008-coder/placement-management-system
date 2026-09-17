@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./Selected.css";
 
 const API_URL =
-  "http://127.0.0.1:8000/api/applications/";
+  "https://placement-management-system-t19p.onrender.com/api/applications/";
 
 function Selected({ onNavigate }) {
   const student =

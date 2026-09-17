@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import "./Jobs.css";
 
 const JOBS_API =
-  "http://127.0.0.1:8000/api/jobs/";
+  "https://placement-management-system-t19p.onrender.com/api/jobs/";
 
 const COMPANIES_API =
-  "http://127.0.0.1:8000/api/companies/";
+  "https://placement-management-system-t19p.onrender.com/api/companies/";
 
 function Jobs({ onNavigate }) {
   const [jobs, setJobs] = useState([]);

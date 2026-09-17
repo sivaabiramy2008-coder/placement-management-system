@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Students.css";
 
-const API_URL = "http://127.0.0.1:8000/api/students/";
+const API_URL = "https://placement-management-system-t19p.onrender.com/api/students/";
 
 function Students({ onNavigate }) {
   const [students, setStudents] = useState([]);

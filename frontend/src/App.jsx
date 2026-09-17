@@ -122,7 +122,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/login/",
+        "https://placement-management-system-t19p.onrender.com/api/login/",
         {
           method: "POST",
 

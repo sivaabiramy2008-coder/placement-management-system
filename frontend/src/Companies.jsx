@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import "./Companies.css";
 
-const API_URL = "http://127.0.0.1:8000/api/companies/";
+const API_URL = "https://placement-management-system-t19p.onrender.com/api/companies/";
 
 /*
   Common placement companies.
