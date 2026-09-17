@@ -156,3 +156,23 @@ The application follows a full-stack architecture with a React frontend, Django 
                  │ PostgreSQL Database │
                  │       Neon          │
                  └─────────────────────┘
+
+Deployment
+
+Frontend: Vercel
+
+Backend: Render
+
+Database: PostgreSQL / Neon
+
+👩‍💻 Developer
+
+ABIRAMY S
+
+B.Tech Information Technology
+
+V.S.B Engineering College, Karur
+
+📄 Purpose
+
+This project is developed as an academic full-stack web application for placement management.
