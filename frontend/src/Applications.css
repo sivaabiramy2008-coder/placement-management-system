@@ -1,0 +1,235 @@
+.applications-page {
+  color: #172033;
+}
+
+.application-form-card,
+.applications-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 15px;
+  padding: 24px;
+  margin-bottom: 22px;
+}
+
+.application-form-card h2 {
+  margin-top: 0;
+}
+
+.application-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 17px;
+}
+
+.application-grid > div {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.application-grid .full-width {
+  grid-column: 1 / -1;
+}
+
+.application-grid label {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.application-grid select,
+.application-grid textarea {
+  padding: 12px;
+  border: 1px solid #d5deea;
+  border-radius: 9px;
+  font-family: inherit;
+}
+
+.apply-button {
+  margin-top: 18px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 9px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.application-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.application-toolbar h2 {
+  margin: 0;
+}
+
+.application-toolbar span {
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+.application-toolbar select {
+  padding: 9px 12px;
+  border: 1px solid #d5deea;
+  border-radius: 8px;
+}
+
+.applications-table-wrapper {
+  overflow-x: auto;
+  margin-top: 18px;
+}
+
+.applications-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 900px;
+}
+
+.applications-table th,
+.applications-table td {
+  padding: 14px;
+  border-bottom: 1px solid #edf1f6;
+  text-align: left;
+}
+
+.applications-table th {
+  background: #f8fafc;
+  color: #64748b;
+  font-size: 12px;
+}
+
+.applications-table td {
+  font-size: 13px;
+  color: #475569;
+}
+
+.application-status {
+  padding: 5px 9px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.status-applied {
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.status-under-review {
+  background: #fff7ed;
+  color: #ea580c;
+}
+
+.status-shortlisted {
+  background: #ecfdf3;
+  color: #15803d;
+}
+
+.status-interview {
+  background: #f3e8ff;
+  color: #7e22ce;
+}
+
+.status-selected {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status-rejected {
+  background: #fff1f2;
+  color: #dc2626;
+}
+
+.applications-table select {
+  padding: 7px;
+  border: 1px solid #dbe3ef;
+  border-radius: 7px;
+  margin-right: 7px;
+}
+
+.delete-application {
+  border: none;
+  background: #fff1f2;
+  color: #dc2626;
+  padding: 7px 9px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.no-applications {
+  text-align: center;
+  padding: 35px;
+  color: #94a3b8;
+}
+
+@media (max-width: 800px) {
+  .application-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .application-grid .full-width {
+    grid-column: auto;
+  }
+
+  .application-toolbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}.applications-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.back-dashboard-btn {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  border: none;
+  padding: 11px 18px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.back-dashboard-btn:hover {
+  background: linear-gradient(135deg, #1d4ed8, #1e40af);
+  transform: translateY(-2px);
+}
+
+.back-dashboard-btn:active {
+  transform: translateY(0);
+}
+
+/* Blue pointer effect for clickable elements */
+.applications-page button,
+.applications-page select,
+.applications-page input,
+.applications-page textarea {
+  cursor: pointer;
+}
+
+/* White cursor/icon feel on blue buttons */
+.applications-page button:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+
+  .applications-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .back-dashboard-btn {
+    width: 100%;
+  }
+
+}
